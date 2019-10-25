@@ -7,8 +7,7 @@ array.join(" and ")
 
 elsif array.length >= 3
 new_array = arrayarray[-1].prepend(" and ")
-
-#new_arrayarray[-1].prepend(-1, 'and '
+array.join(", ")
 
 end 
 end
