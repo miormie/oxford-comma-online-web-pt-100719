@@ -8,7 +8,7 @@ array.join(" and ")
 elsif array.length >= 3
 
 array.join(", ")
-array[-1].insert(" and ")
+array[-1].insert(
 
 end 
 end
