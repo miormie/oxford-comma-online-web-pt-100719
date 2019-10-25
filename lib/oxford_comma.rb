@@ -6,7 +6,7 @@ elsif array.length == 2
 array.join(" and ")
 
 elsif array.length >= 3
-new_array = array[-1].insert "and "
+new_array = array[-1].include "and "
 array.join(", ")
 
 end 
