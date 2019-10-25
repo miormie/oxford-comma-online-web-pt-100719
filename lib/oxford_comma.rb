@@ -6,9 +6,9 @@ elsif array.length == 2
 array.join(" and ")
 
 elsif array.length >= 3
+new_array = array.join(", ")
 
-array.join(", ")
-array[-1].insert(
+new_arrayarray[-1].insert(-1, 'and '
 
 end 
 end
