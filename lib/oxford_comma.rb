@@ -6,7 +6,7 @@ elsif array.length == 2
 array.join(" and ")
 
 elsif array.length >= 3
-array.push("and ")
+array.shift("and ")
 array.join(", ")
 
 end 
